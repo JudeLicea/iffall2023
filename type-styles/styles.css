@@ -1,0 +1,68 @@
+
+
+html {
+font-family: 'Crimson Text', serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin-left: 25px;
+
+}
+
+.head {
+    color: #316eae;
+}
+
+.detail {
+    color: #b666d3;
+}
+
+p {
+    font-size: 24px;
+}
+
+h2 {
+     color: #316eae;
+}
+
+h3 {
+    color: #b666d3;
+}
+
+.loose {
+    letter-spacing: .3em;
+}
+
+.tight {
+    letter-spacing: -.06em;
+}
+
+.under {
+text-decoration: underline;
+}
+
+.line {
+    text-decoration: line-through
+}
+
+.over {
+    text-decoration: overline;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+hr {
+    margin-right: 10px;
+}
