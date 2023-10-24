@@ -34,6 +34,8 @@ html {
 
     
 
+
+
     .intro h1 {
         text-align: center;
         font-size: 50px;
@@ -93,13 +95,6 @@ html {
         font-size: 1rem;
     }
 
-
-
-
-
-
-
-
      @media (min-width: 1180px){
 
     .desc {
@@ -114,54 +109,166 @@ html {
     .bullets {
         margin-left: 23%;
         font-size: 1rem;
+        }
+     }
+
+
+
+
+
+
+
+
+     @media (max-width:809px){
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 350px;
+            height: 750px;
+            gap: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            
+        }
+
+        .wrapper img {
+            border-radius: 5%;
+            
+        }
+        .one {
+            grid-row: 1;
+            grid-column: 2;
+        }
+
+        .two {
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+        .three {
+            grid-row:3;
+            grid-column: 2;
+        }
+        .four {
+            grid-row: 4;
+            grid-column: 2;
+        }
+     }
+     
+
+
+
+
+     @media (min-width:810px) {
+     .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 30px;
+        width: 700px;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+     }
+
+    .wrapper img {
+        border-radius: 5%;
+        width:350px;
+        height: 300px;
     }
 
 
      }
 
 
-    .image_block {
-        max-width:75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    .image_block img {
-        
-        width: 450px;
-        height: 300px;
-    }
 
-    #long_image {
-       
-        width:450px;
-        height:600px
+     /* @media(min-width:1100px) {
+
+        .wrapper {
+            display:grid;
+            grid-template-columns: 50% 50%;
+            width: 500px;
+            height: 500px;
+            gap:20px;
+           
+            
+        }
+
+        .wrapper img {
+            border-radius: 5%;
+        }
+        #grid-one img {
+           grid-column: 1 / span 1; 
+           grid-row: 1 / 2;
+        }
+
+        #grid-two img {
+            grid-column: 2 / span 2;
+            grid-row: 1 span / 1;
+            
+        }
+
+        #grid-three img {
+            grid-column: 2 / span 2;
+            grid-row: 2 /span 2;
+
+
+        }
+        #grid-four img {
+            grid-column: 1 / span 2;
+            grid-row: 3 / span 3;
+
+
+        }
+
+
+
+
+
+
+     }
+      */
+
+
+
+
+
+
+
+
+
+     .ing {
+        padding-top: 150px;
+        text-decoration:  underline;
+        padding-left: 20px;
+        text-align: center;
+        font-size: 24px;
      
+     }
 
-    }
+     @media(min-width: 810px){
+        .ing {
+            padding-top: 50px;
+            text-decoration:  underline;
+            padding-left: 20px;
 
-    #last_image {
-        width: 900px;
-        height: 300px;
-    }
+        }
+
+        .media-scroller {
+            padding-bottom: 100px;
+        }
+
+
+     }
 
 
 
     
 
-
-
-
-    .ing {
-        padding-top: 150px;
-        
-    }
-
-
-
-
-
     .media-scroller {
+        margin-bottom: -50px;
         display: grid;
         gap:var(--size-3);
         grid-auto-flow: column;
@@ -170,7 +277,7 @@ html {
         overscroll-behavior-inline: contain;
 
 
-        grid-auto-columns: 21%
+        grid-auto-columns: 21%;
     }
 
 
@@ -183,34 +290,9 @@ html {
 
         .media-element > img {
             width: 100%;
+          
             border-radius: 3%;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -239,11 +321,7 @@ html {
         font-size: 24px;
     }
 
-    /* .step_container {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 50px;
-    } */
+    
 
     .step_image img {
         width: 450px;
@@ -276,75 +354,26 @@ html {
         .step_container:nth-child(even) .step_image{
             
             order:2;
+            
         }
+
+        .step_container:nth-child(even) .step_image img{
+            
+            margin-right: 50px;
+            
+        }
+
+        .step_container:nth-child(odd) .step_image img{
+            
+            margin-left: 50px;
+            
+        }
+
+        .step-two {
+            padding-top:75px;
+        }
+
     }
-
-
-    /* .second_container {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 50px;
-    }
-
-    .second_image img {
-        width: 450px;
-        height: 400px;
-        border-radius: 2%;
-        margin-left: 100px;
-    }
-
-    .second_text {
-        margin-right: 100px;
-        width: 50%;
-        padding-top: 75px;
-    }
-
-
-
-
-    .third_container {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 50px;
-    }
-
-    .third_image img {
-        width: 450px;
-        height: 400px;
-        border-radius: 2%;
-        margin-right:100px;
-    }
-
-    .third_text {
-        margin-left: 100px;
-        width: 50%;
-    }
-
-
-
-    .fourth_container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .fourth_image img {
-        width: 450px;
-        height: 400px;
-        border-radius: 2%;
-        margin-left: 100px;
-    }
-
-    .fourth_text {
-        margin-right: 100px;
-        width: 50%;
-       
-    }
- */
-
-
-
-
-
 
 
 
@@ -376,10 +405,28 @@ html {
         
         margin-left: auto;
         margin-right: auto;
-        width: 1000px;
-        height: 500px;
+        width: 450px;
+        height: 250px;
         object-fit: cover;
         margin-bottom: 50px;
         border-radius: 3%;
+
+    }
+
+    @media(min-width: 1100px) {
+
+        .final-image img {
+        
+            display: block;
+            
+            margin-left: auto;
+            margin-right: auto;
+            width: 850px;
+            height: 450px;
+            object-fit:cover;
+            margin-bottom: 50px;
+            border-radius: 3%;
+    
+        }
 
     }
