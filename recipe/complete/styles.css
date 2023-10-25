@@ -10,8 +10,16 @@ html {
     color:aliceblue
     }
 
-    body {
+
+    .color {
         background-color: 	#483248;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    body {
+        background-color: salmon;
+        margin: 0;
     }
     
     
@@ -122,13 +130,14 @@ html {
      @media (max-width:809px){
         .wrapper {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             width: 350px;
             height: 750px;
             gap: 25px;
-            margin-left: auto;
-            margin-right: auto;
-            align-items: center;
+            margin-left: 30%;
+            margin-right: 35%;
+           
+            
             
         }
 
@@ -137,21 +146,20 @@ html {
             
         }
         .one {
-            grid-row: 1;
+            
             grid-column: 2;
         }
 
         .two {
-            grid-row: 2;
+            
             grid-column: 2;
         }
 
         .three {
-            grid-row:3;
+            
             grid-column: 2;
         }
         .four {
-            grid-row: 4;
             grid-column: 2;
         }
      }
@@ -278,6 +286,7 @@ html {
 
 
         grid-auto-columns: 21%;
+        padding-left: 20px;
     }
 
 
@@ -429,4 +438,18 @@ html {
     
         }
 
+    }
+
+
+
+    .last-section {
+        background-color: salmon;
+        margin-bottom: 0;
+    }
+
+    .last-section p {
+        color: #483248;
+       text-align: center;
+       padding-top: 50px;
+       padding-bottom: 50px;
     }
