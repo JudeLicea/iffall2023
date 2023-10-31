@@ -1,0 +1,535 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 18px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+
+/* ----craigslist */
+
+a#btn_craigs {
+    display: inline-block;
+    padding-top: 50px;
+ 
+}
+
+a#btn_craigs img{
+    width: 50%;
+    transition: all 1s ease;
+}
+
+a#btn_craigs img:hover{
+    width: 60%;
+    transform: rotate(360deg);
+}
+
+
+
+/* ----pottermore---- */
+
+
+a#btn_pottermore {
+    display: inline-block;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding-top: 48px;
+    transition: all .05s ease;
+    
+}
+
+a#btn_pottermore:hover {
+    
+    animation-name: color_change;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+
+    
+   
+    
+}
+
+@keyframes color_change {
+    0%{
+      background: rgb(3,110,73,.8)
+    }
+    25%{
+      background:   rgb(170,10,10,.8)
+    }
+    50% {
+      background: rgb(30,74,112,.8);
+    }
+    75% {
+      background: rgb(243,192,26,.8);
+    }
+
+    100% {
+        background:  rgb(3,110,73,.8);
+    }
+    
+  }
+
+a#btn_pottermore img {
+    width: 60%;
+    
+}
+
+
+/* ---tesla---  */
+
+a#btn_tesla {
+    display: inline-block;
+    position: relative;
+    transition: all 3s ease;
+    overflow: hidden;
+
+}
+
+a#btn_tesla:hover .logo {
+
+    top: 10px;
+    transition: all 3s ease;
+}
+
+a#btn_tesla .text {
+    position: relative;
+    z-index: 1;
+    transition: all 3s ease;
+    height: 80px;
+}
+
+
+a#btn_tesla img {
+    width: 90%;
+    object-fit: cover;
+    transition: all 3s ease;
+}
+
+
+
+a#btn_tesla .logo {
+   bottom: 140px;
+   position: relative;
+   transition: all 3s ease;
+}
+
+
+
+
+
+/* ---army--- */
+
+a#btn_army {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 50px 62px 50px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 34px;
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s;
+
+}
+
+
+a#btn_army:hover {
+    background-color: rgb(255,203,3);
+    text-decoration: underline;
+    -o-box-shadow:      12px 12px 29px #555;
+    -icab-box-shadow:   12px 12px 29px #555;
+    -khtml-box-shadow:  12px 12px 29px #555;
+    -moz-box-shadow:    12px 12px 29px #555;
+    -webkit-box-shadow: 12px 12px 29px #555;
+    box-shadow:         12px 12px 29px #555;
+}
+    
+
+
+/* ---facebook---- */
+
+a#btn_facebook  {
+        display: inline-block;
+        box-sizing: border-box;
+        
+        margin-top: 65px;
+        color: rgb(63,92,160);
+        text-align: center;
+        font-size: 120px;
+        transition: all 1s;
+        border: 2px solid white; 
+        border-radius: 100px;
+        padding: 0;
+    
+}      
+
+a#btn_facebook:hover {
+    color: white;
+    background-color: rgb(63,92,160);
+    font-size: 140px;
+    border: 2px solid rgb(63,92,160); 
+}
+
+
+
+/* ---lyft--- */
+
+
+a#btn_lyft {
+    display: inline-block;
+    font-size: 120px;
+    margin-top: 60px;
+    background-color: #eb1478;
+    border: 2px solid  #eb1478;  
+    border-radius: 25px;
+    padding: 20px;
+    color: aliceblue;
+    transition: all 1s ease;
+}
+
+a#btn_lyft:hover {
+    border: 2px solid #FF6EC7;  
+    color:#eb1478;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    margin-top: 45px;
+    font-size: 140px;
+    background-color: white;
+
+
+    -o-box-shadow:      12px 12px 29px #FF6EC7;
+    -icab-box-shadow:   12px 12px 29px #FF6EC7;
+    -khtml-box-shadow:  12px 12px 29px #FF6EC7;
+    -moz-box-shadow:    12px 12px 29px #FF6EC7;
+    -webkit-box-shadow: 12px 12px 29px #FF6EC7;
+    box-shadow:         12px 12px 29px #FF6EC7;
+
+
+}
+
+
+/* --Nike-- */
+
+
+a#btn_nike p{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    color:white;
+    background-color: black;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 64px;
+  
+}
+
+a#btn_nike {
+    transition: all 1s ease;
+}
+
+.swoosh {
+    width: 250px;
+    height:150px;
+    margin-top: 50px;
+
+    border-radius: 25px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: -1;
+
+}
+
+
+a#btn_nike:hover p {
+    display: none;
+}
+
+
+/* ---exploding kittens--- */
+
+
+a#btn_ek {
+    display: inline-block;
+    position: relative;
+    font-family: "nexa-rust-slab-black", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    border: 4px solid black;
+    color: white;
+    background-color: maroon;
+    margin-top: 65px;
+    text-decoration: none;
+    font-size: 32px;
+    transition: all 0.5s;
+
+}
+
+
+a#btn_ek:hover {
+    animation-name: tilt-shaking;
+    animation-iteration-count: infinite;
+    transform-origin: center bottom;
+    animation-duration: 0.09s;
+    animation-direction: alternate;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+
+/* ---color run---  */
+
+
+
+a#btn_color {
+    display: inline-block;
+    color: white;
+    border: 2px solid black;
+    margin-top: 65;
+    width: 150px;
+    height: 150px;
+    font-size: 32px;
+    text-decoration: none;
+    background-color: black;
+    padding-top: 20px;
+    font-family: "gabriella", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+a#btn_color:hover {
+    
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation-name: bounce; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+
+
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
+
+
+/* 
+---instagram--- */
+
+
+a#btn_insta {
+    display: inline-block;
+    font-size: 100px;
+    margin-top: 90px;
+    color: black;
+    transition: all 2s ease;
+}
+
+a#btn_insta:hover {
+    border: 2px solid black;
+    font-size: 120px;
+    border-radius: 25px;
+    padding:10px 20px 10px 25px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+      
+
+      
+@-moz-keyframes spin { 
+    100% { 
+        -moz-transform: rotate(360deg); 
+    } 
+}
+@-webkit-keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+      } 
+}
+    @keyframes spin { 
+     100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+
+}
