@@ -238,8 +238,8 @@ a#btn_tesla {
 
 a#btn_tesla:hover .logo {
 
-    top: 10px;
-    transition: all 3s ease;
+    bottom: 0;
+    transition: all 1s ease;
 }
 
 a#btn_tesla .text {
@@ -454,9 +454,10 @@ a#btn_color {
     color: white;
     border: 2px solid black;
     margin-top: 65;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     font-size: 32px;
+    line-height: 55px;
     text-decoration: none;
     background-color: black;
     padding-top: 20px;
