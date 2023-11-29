@@ -1,0 +1,754 @@
+ html {
+    font-family: 'Michroma', sans-serif;
+    
+ }
+
+ body {
+  
+   background-color:#343137
+ }
+
+
+h1 {
+    font-style: bold;
+}
+
+.main-intro {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1, h2 {
+    color: #f2b4bb;
+    font-size: 54px;
+    text-align: center;
+
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 42px;
+    color: #DA97A0;
+    text-align: center;
+
+}
+
+h4 {
+    color: #DA97A0;
+    
+}
+
+
+.nav {
+    display: flex;
+     flex-wrap:wrap;
+     width: 90%;
+     justify-content:space-between;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-left: 5%;
+ 
+ 
+ 
+     
+   }
+ 
+  .nav li {
+     
+     font-size: 2.5vw;
+     
+ 
+     
+ }
+
+a {
+    color: #DA97A0;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+
+    .start p {
+        opacity: 0;
+        transition: opacity 1s;
+        position: absolute;
+        left: 0px;
+    }
+
+    .start:hover p {
+        opacity: 1;
+
+    
+    }
+
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+p {
+    width: 80%;
+    padding-left: 10%;
+    line-height:1.5rem;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+
+.big-img img {
+    width: 700px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+
+.main-img img {
+    width: 1000px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+
+
+.ball{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    animation: all 1s ease;
+}
+
+.ball  {
+    border-radius: 5%;
+    height: 500px;
+    width:800px
+ 
+    
+}
+
+.ball img:hover{
+   transform: rotate(360deg);
+
+}
+
+
+/* ----team--- */
+
+
+
+
+
+
+
+.team-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.team-flex img {
+
+    height: 250px;
+    width: 250px;
+    
+    
+    }
+
+
+
+
+
+.starters {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    
+
+}
+
+.starters img {
+    width: 250px;
+    height: 250px;
+}
+
+.starters p {
+    text-align: center;
+}
+
+
+/* ----obs--- */
+
+
+
+
+.obstacles-header {
+    margin-top: 50px;
+}
+
+
+
+.cynthia {
+    margin-top: 50px;
+}
+
+
+.ob-ul {
+    margin-top: 40px;
+    margin-left: 25px;
+    color:  #DA97A0;
+    margin-left: 10%;
+
+
+}
+
+
+.leader {
+    font-style: italic;
+    color: #DA97A0;
+    
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+.ob-image {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ob-image img {
+    height:300px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.cynthia-hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+
+.obstacles-last {
+    margin-top: 50px;
+}
+
+
+
+.scroll {
+ 
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 50px;
+  }
+  
+  .scroll li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin-left: 5%;
+
+  }
+  
+  .scroll li img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+   
+  }
+ 
+  
+
+
+  .last_elite {
+    padding-top: 100px;
+  }
+
+
+
+
+
+/* ----elite--- */
+
+
+.elite_title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#aaron {
+    margin-top: 40px;
+}
+
+
+.elite_line {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.elite_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+   }
+
+   .elite_image {
+    
+    width: 30%;
+   }
+
+
+   .elite_image img {
+ 
+    height: 350px;
+    width: 750px;
+    border-radius: 5%;
+   }
+
+   .elite_text,
+   .elite_title {
+
+    
+    width: 40%
+   
+  
+
+   }
+
+   .elite_text p {
+    font-size: 24px;
+   text-align: center;
+
+   }    
+
+   .elite_title {
+   margin-left: 30%;
+   font-size: 24px;
+   text-align: center;
+   
+   }
+
+   
+
+   .elite_character {
+    
+    width: 30%
+   }
+
+
+   .elite_image img, 
+   .elite_character img {
+
+    width: 100%;
+
+    
+   }
+
+   .elite_character img{
+    height: 400px;
+    width: 200px;
+    margin-left: 30%;
+   }
+
+
+   .elite_container {
+    margin-top: 75px;
+    margin-bottom: 75px;
+   }
+
+
+
+
+   
+.centered_section {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+}
+
+
+
+.bertha img {
+    
+    height: 600px;
+    width: 400px;
+    margin-left: 0;
+    
+}
+
+.bertha-scroll {
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+
+
+
+.aaron_scroll {
+   margin-bottom: 10px;
+}
+
+.last-bit {
+    text-align: center;
+}
+
+
+
+/* @media (min-width: 810px) {
+
+    .scroll li img  {
+        margin-left: 65%;
+    }
+} */
+
+
+
+
+/* ---final---  */
+
+.final-image {
+    display: flex;
+    justify-content: center;
+   }
+
+   
+   .final-image img{
+   width: 800px;
+   height: 450px;
+   border-radius: 5%;
+
+   }
+
+
+
+
+
+
+/* ---home-- */
+
+ @media(max-width: 810px) {
+
+ 
+
+h1, h2 {
+    text-align: center;
+    font-size: 32px;
+
+}
+
+
+
+li{
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+ p {
+    font-size: 14px;
+    
+ }
+
+
+ img {
+
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+   
+ }
+
+  .ball {
+    width: 300px;
+    height: 300px;
+
+  }
+
+ }
+
+
+
+
+ /* ----team--- */
+
+
+@media(max-width: 810px) {
+
+
+    .big-img img {
+        width: 350px;
+        height: 200px;
+        border-radius: 5%;
+    
+    }
+
+
+
+
+h3 {
+    font-size: 32px;
+}
+
+.team-img {
+
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+   
+ }
+
+
+.starters img {
+    width: 175px;
+    height: 175px;
+}
+
+
+.starters {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+
+
+.team-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.team-flex img {
+
+height: 175px;
+width: 175px;
+
+
+}
+/* --when hovering make paragrpah show--- */
+
+
+
+}
+
+
+
+
+/* ---osbtacles--- */
+
+
+@media(max-width: 810px){
+
+.ob-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.ob-image img {
+    height:250px;
+    width: 350px;
+    
+}
+
+
+
+
+.ob-p {
+    text-align: center;
+}
+
+.scroll li img {
+  
+    width: 125px;
+    height: 125px;
+}
+
+
+.scroll li img:first-child  {
+    margin-right: 30px;
+}
+
+
+
+
+.obstacles-last {
+    margin-top: 10px;
+}
+
+
+
+
+}
+
+
+
+/* ---elite four-- */
+
+@media(max-width: 810px){
+
+   p {
+    text-align: center;
+   }
+
+   .elite_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   }
+
+   .elite_image img {
+    height:300px;
+    width: 400px;
+   }
+
+   .elite_character img {
+    display: none;
+   }
+
+
+   .elite_container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-direction: column;
+        text-align: center;
+   }
+    
+   .elite_text,
+    .elite_title {
+        order: 0; 
+        width: 100%; 
+        margin-bottom: 20px;
+
+    }
+
+    .elite_image {
+        order: 1; 
+        width: 100%; 
+    }
+
+
+   .elite_text {
+    width: 100%;
+   }
+
+   .elite_image {
+    
+    width: 100%;
+   }
+
+   .elite_title {
+    margin:0 auto;
+    text-align: center;
+    
+   }
+
+   .elite_line {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+   
+}
+
+
+.scroll {
+ 
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 0px;
+  }
+  
+  .scroll li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin-left: 5%;
+
+  }
+  
+  .scroll li img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+   
+  }
+ 
+
+  .bertha-text {
+    order: 0;
+  }
+
+  .bertha {
+    order: 1;
+  }
+  
+
+
+  .last_elite {
+    padding-top: 0px;
+  }
+
+
+
+
+   /* ---final--- */
+
+
+   .final-image {
+    display: flex;
+    justify-content: center;
+   }
+
+   
+   .final-image img{
+   width: 400px;
+   height: 250px;
+   border-radius: 5%;
+
+   }
+
+    }
