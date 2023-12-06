@@ -128,8 +128,13 @@ p {
     width: 1000px;
     height: 500px;
     border-radius: 5%;
+   
 }
 
+.main-img {
+    display: flex;
+    justify-content: center;
+}
 
 
 .ball{
@@ -196,6 +201,13 @@ p {
     
     
     }
+
+
+
+
+.mobile-team {
+    display: none;
+}
 
 
 
@@ -269,6 +281,126 @@ p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+
+
+
+
+.whole_grid img {
+
+    height:300px;
+    width: 500px;
+    margin-bottom: 2px; 
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+.whole_grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+
+
+
+.grid_element p {
+    font-size: 18px;
+    line-height: 25.15px;
+    text-align: center;
+    margin-left: 75px;
+    width: 250px;
+
+
+}
+
+
+
+@media (max-width: 810px) {
+
+    .whole_grid img {
+
+        height:150px;
+        width: 300px;
+        margin-bottom: 2px; 
+        object-fit: cover;
+        border-radius: 4%;
+        margin-left: 10%;
+    }
+    
+    .whole_grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+        justify-content: space-evenly;
+        }
+    
+
+
+        
+    
+    .grid_element p {
+        font-size: 14px;
+        line-height: 25.15px;
+        text-align: center;
+        margin-left: 5%;
+        width: 250px;
+    
+    
+    }
+
+    .grid_element h4 {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 1%;
+    }
+    
+    .main-img img {
+        width: 500px;
+        height: 250px;
+        border-radius: 5%;
+    }
+
+    
+
+    
+
+}
+
+
+@media (max-width: 600px) {
+
+.main-img img {
+    width: 300px;
+    height: 150px;
+}
+
+
+.ob-ul li {
+    font-size: 14px;
+    margin-left: 5%;
+    padding-left: 0;
+    padding-right: 25px;
+}
+        
+}
+
+@media (max-width: 1100px) {
+    .img-container {
+        display:none;
+       
+       
+    }
+
+}
+
+
+
+
+
+
 
 
 
@@ -590,6 +722,46 @@ width: 175px;
 }
 /* --when hovering make paragrpah show--- */
 
+
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width: 600px){
+
+
+    .mobile-team {
+        display: contents;
+    }
+
+
+
+    .mobile-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+    }
+
+    .mobile-image img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .starters {
+        display: none;
+    }
+
+    .mobile-team p {
+        display: block;
+    }
 
 
 }
